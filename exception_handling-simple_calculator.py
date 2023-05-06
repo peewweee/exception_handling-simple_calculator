@@ -16,9 +16,10 @@ elif input_operation == "Subtraction":
 # if multiplication
 elif input_operation == "Multiplication":
     result_number = first_number * second_number
-    print(result_number)
 # if division
+elif input_operation == "Division":
+    result_number = first_number / second_number
 # display result
-
+print(result_number)
 # ask user if they want to try again or not
 # if yes repeat
