@@ -34,5 +34,7 @@ def calculator_app():
     # catch exceptions
     except ValueError as e:
         print(f"Error: {e}. Please try again.")
+    except ZeroDivisionError:
+        print("Error: Cannot divide by zero. Please try again.")
 
 calculator_app()
