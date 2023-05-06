@@ -10,8 +10,10 @@ second_number = float(input("Enter your second number: "))
 # if addition
 if input_operation == "Addition":
     result_number = first_number + second_number
-    print(result_number)
 # if subtraction
+elif input_operation == "Subtraction":
+    result_number = first_number - second_number
+    print(result_number)
 # if multiplication
 # if division
 # display result
