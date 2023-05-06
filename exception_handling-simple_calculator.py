@@ -13,8 +13,10 @@ if input_operation == "Addition":
 # if subtraction
 elif input_operation == "Subtraction":
     result_number = first_number - second_number
-    print(result_number)
 # if multiplication
+elif input_operation == "Multiplication":
+    result_number = first_number * second_number
+    print(result_number)
 # if division
 # display result
 
